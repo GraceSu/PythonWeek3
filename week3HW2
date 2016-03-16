@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+x=input('Please input a number: ')
+
+num=0
+i=1
+while x<=i:
+	if x%i==0:
+		num=num+1
+	i=i+1
+if num==2:
+	print x + ' is a prime.'
+else:
+	print 'This number is not a prime.'	

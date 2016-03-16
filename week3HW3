@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+g = open("test.txt")
+line = g.readline()
+print line
+list(line)
+len(line)
